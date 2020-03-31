@@ -1,5 +1,7 @@
 alias info='uname -a; id; date'
 
+alias lart='ls -latr'
+
 #oracle
 alias smon='ps -efa |grep smon'
 alias alert='cat $ORACLE_BASE/diag/rdbms/$ORACLE_SID/${ORACLE_SID}/trace/alert_$ORACLE_SID.log'
