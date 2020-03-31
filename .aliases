@@ -1,3 +1,6 @@
+#linux aliases
+#by mmasel@gmail.com
+
 alias info='uname -a; id; date'
 
 alias lart='ls -latr'
