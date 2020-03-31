@@ -4,6 +4,9 @@ export ORACLE_SID=
 export TNS_ADMIN
 export ORACLE_UNQNAME=
 
+export NLS_LANG=AMERICAN
+export ORA_NLS33=$ORACLE_HOME/ocommon/nls/admin/data
+
 export PATH=$ORACLE_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
 export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib:$CLASSPATH
