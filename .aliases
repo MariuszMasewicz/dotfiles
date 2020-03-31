@@ -1,0 +1,6 @@
+alias info='uname -a; id; date'
+
+#oracle
+alias smon='ps -efa |grep smon'
+alias alert='cat $ORACLE_BASE/diag/rdbms/$ORACLE_SID/${ORACLE_SID}/trace/alert_$ORACLE_SID.log'
+alias alert_ora='alert |grep -B5 ORA-'
