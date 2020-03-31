@@ -2,6 +2,13 @@ alias info='uname -a; id; date'
 
 alias lart='ls -latr'
 
+alias topcpu='ps aux | sort -n +2 | tail -10'  # top 10 cpu processes
+alias topmem='ps aux | sort -n +3 | tail -10'  # top 10 memory processes
+
+# systat - http://perso.orange.fr/sebastien.godard/index.html
+alias sar2='sar -u 2 0'
+alias sar5='sar -u 5 0'
+
 #oracle
 alias smon='ps -efa |grep smon'
 alias alert='cat $ORACLE_BASE/diag/rdbms/$ORACLE_SID/${ORACLE_SID}/trace/alert_$ORACLE_SID.log'
