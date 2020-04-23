@@ -355,6 +355,7 @@ screen -t SHELL 0 -$SHELL
 screen -t TOP 1 top
 screen -t MC 2 mc
 screen -t SQLPLUS 3 sqlplus / as sysdba
+screen -t ORATOP 4 ~/oratop/oratop / as sysdba
 
 # Set the environment variable var to value string. If only var is specified,
 # you'll be prompted to enter a value. If no parameters are specified,
