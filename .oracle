@@ -10,6 +10,7 @@ export ORACLE_UNQNAME=
 export ORACLE_TERM=xterm
 
 export NLS_LANG=AMERICAN
+export NLS_DATE_FORMAT='YYYY-MM-DD HH24:MI:SS'
 export ORA_NLS33=$ORACLE_HOME/ocommon/nls/admin/data
 
 export PATH=$ORACLE_HOME/bin:$PATH
