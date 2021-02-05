@@ -1,8 +1,8 @@
 yum install oracle-epel-release-el7
 dnf install oracle-epel-release-el8
 
-yum install screen mc htop iftop net-tools nmon etckeeper inxi upower tree wget
-dnf install tmux mc htop iftop net-tools nmon etckeeper
+yum install screen mc htop iftop net-tools nmon etckeeper inxi upower tree wget bpytop
+dnf install tmux   mc htop iftop net-tools nmon etckeeper inxi upower tree wget bpytop
 
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 
